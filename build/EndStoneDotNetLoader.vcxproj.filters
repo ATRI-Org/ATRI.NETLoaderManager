@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\EndStoneMC\Plugin\cpp-example-plugin\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\EndStoneMC\Plugin\cpp-example-plugin\src\HostLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\EndStoneMC\Plugin\cpp-example-plugin\include\coreclr_delegates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\EndStoneMC\Plugin\cpp-example-plugin\include\hostfxr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{455F9A51-2842-3AA1-BCB2-40348A1A782D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{695CB3AA-E87D-3F5F-9467-3FF973870D5F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

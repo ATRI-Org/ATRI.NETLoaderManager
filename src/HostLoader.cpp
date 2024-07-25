@@ -11,12 +11,15 @@
 #include <coreclr_delegates.h>
 #include <hostfxr.h>
 #include <Windows.h>
+#include "stdio.h"
 #define STR(s)        L##s
 #define CH(c)         L##c
 #define DIR_SEPARATOR L'\\'
 #define string_compare wcscmp
 using string_t = std::basic_string<char_t>;
+
 namespace {
+
 hostfxr_initialize_for_dotnet_command_line_fn init_for_cmd_line_fptr;
 hostfxr_initialize_for_runtime_config_fn init_for_config_fptr;
 hostfxr_get_runtime_delegate_fn get_delegate_fptr;
@@ -25,11 +28,11 @@ hostfxr_close_fn close_fptr;
 bool load_hostfxr(const char_t *app);
 load_assembly_and_get_function_pointer_fn get_dotnet_load_assembly(const char_t *assembly);
 
-int run_component_example(const string_t &root_path);
+std::string run_component_example(const string_t &root_path);
 int run_app_example(const string_t &root_path);
 } 
 
-int LoadMain()
+std::string LoadMain()
 {
     char_t host_path[MAX_PATH];
     auto size = ::GetFullPathNameW(L"bedrock_server.exe", sizeof(host_path) / sizeof(char_t), host_path, nullptr);
@@ -40,16 +43,14 @@ int LoadMain()
     root_path = root_path.substr(0, pos + 1);
     return run_component_example(root_path);
 }
-
 namespace {
-int run_component_example(const string_t &root_path)
+std::string run_component_example(const string_t &root_path)
 {
    
     if (!load_hostfxr(nullptr)) {
         assert(false && "Failure: load_hostfxr()");
-        return EXIT_FAILURE;
+        return nullptr;
     }
-
     const string_t config_path = root_path + STR("plugins\\plugins_dotnet\\runtime\\netloader.runtimeconfig.json");
     load_assembly_and_get_function_pointer_fn load_assembly_and_get_function_pointer = nullptr;
     load_assembly_and_get_function_pointer = get_dotnet_load_assembly(config_path.c_str());
@@ -58,17 +59,19 @@ int run_component_example(const string_t &root_path)
     const char_t *dotnet_type = STR("Netmain.Pmain, netloader");
     const char_t *dotnet_type_method = STR("PluginMain");
     component_entry_point_fn PluginMain = nullptr;
-    int rc = load_assembly_and_get_function_pointer(dotnetlib_path.c_str(), dotnet_type, dotnet_type_method,
-                                                    nullptr, nullptr, (void **)&PluginMain);
+    int rc = load_assembly_and_get_function_pointer(dotnetlib_path.c_str(), dotnet_type, dotnet_type_method,                                        nullptr, nullptr, (void **)&PluginMain);
     assert(rc == 0 && PluginMain != nullptr && "Failure: load_assembly_and_get_function_pointer()");
-    struct lib_args {
-        const char_t *message;
-        int number;
-    };
-        lib_args args{STR("Loaded!"), 1};
-        PluginMain(&args, sizeof(args));
-    return EXIT_SUCCESS;
-}}
+        long long* a = new long long;
+        *a =0;
+        int a2 =  PluginMain(a, 20);
+        const char* ptra = (const char*)*a;
+        char *dat = new  char[a2];
+        delete a;
+        strcpy(dat,ptra);
+        std::string text = dat;
+       return text;
+  }
+}
 namespace {
 void *load_library(const char_t *);
 void *get_export(void *, const char *);

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/endstone-populate"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/d92b768d3b8de820115abecc0a4cf5e8/endstone-populate.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/3f1815299659b81f2f9bbffafb600bcb/endstone-populate-complete.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/c0974674c7b8d6cfc11a2cad719cda6d/endstone-populate-build.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/c0974674c7b8d6cfc11a2cad719cda6d/endstone-populate-configure.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/c0974674c7b8d6cfc11a2cad719cda6d/endstone-populate-download.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/c0974674c7b8d6cfc11a2cad719cda6d/endstone-populate-install.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/c0974674c7b8d6cfc11a2cad719cda6d/endstone-populate-mkdir.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/c0974674c7b8d6cfc11a2cad719cda6d/endstone-populate-patch.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/c0974674c7b8d6cfc11a2cad719cda6d/endstone-populate-test.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/c0974674c7b8d6cfc11a2cad719cda6d/endstone-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"endstone-populate"
+		],
+		"name" : "endstone-populate"
+	}
+}

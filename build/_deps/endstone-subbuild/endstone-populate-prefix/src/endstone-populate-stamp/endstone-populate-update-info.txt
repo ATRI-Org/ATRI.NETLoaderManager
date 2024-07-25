@@ -1,0 +1,7 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The patch step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+command (connected)=F:/Program Files/CMake/bin/cmake.exe;-Dcan_fetch=YES;-P;F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/endstone-populate-prefix/tmp/endstone-populate-gitupdate.cmake
+command (disconnected)=F:/Program Files/CMake/bin/cmake.exe;-Dcan_fetch=NO;-P;F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/endstone-populate-prefix/tmp/endstone-populate-gitupdate.cmake
+work_dir=F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-src
