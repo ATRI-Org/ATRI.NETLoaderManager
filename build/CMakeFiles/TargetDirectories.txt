@@ -1,9 +1,0 @@
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/CMakeFiles/endstone_example_plugin.dir
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/CMakeFiles/INSTALL.dir
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/CMakeFiles/ALL_BUILD.dir
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/CMakeFiles/ZERO_CHECK.dir
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-build/CMakeFiles/INSTALL.dir
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-build/CMakeFiles/ALL_BUILD.dir
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-build/CMakeFiles/fmt.dir
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-build/CMakeFiles/INSTALL.dir
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-build/CMakeFiles/ALL_BUILD.dir
