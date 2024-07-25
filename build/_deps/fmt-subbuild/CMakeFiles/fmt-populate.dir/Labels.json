@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/CMakeFiles/fmt-populate"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/CMakeFiles/c0d5c41bf0eece28db44df350bb87cd8/fmt-populate.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/CMakeFiles/78e21b849d00e6445d13a91c3af97d36/fmt-populate-complete.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/CMakeFiles/53ee1fb21a032f5d721c22f6c34824fd/fmt-populate-build.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/CMakeFiles/53ee1fb21a032f5d721c22f6c34824fd/fmt-populate-configure.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/CMakeFiles/53ee1fb21a032f5d721c22f6c34824fd/fmt-populate-download.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/CMakeFiles/53ee1fb21a032f5d721c22f6c34824fd/fmt-populate-install.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/CMakeFiles/53ee1fb21a032f5d721c22f6c34824fd/fmt-populate-mkdir.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/CMakeFiles/53ee1fb21a032f5d721c22f6c34824fd/fmt-populate-patch.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/CMakeFiles/53ee1fb21a032f5d721c22f6c34824fd/fmt-populate-test.rule"
+		},
+		{
+			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/CMakeFiles/53ee1fb21a032f5d721c22f6c34824fd/fmt-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fmt-populate"
+		],
+		"name" : "fmt-populate"
+	}
+}
