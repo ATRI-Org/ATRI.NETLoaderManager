@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\c0974674c7b8d6cfc11a2cad719cda6d\endstone-populate-mkdir.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\478eec8aaa3064eb1e404b51f0672e04\endstone-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\c0974674c7b8d6cfc11a2cad719cda6d\endstone-populate-download.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\478eec8aaa3064eb1e404b51f0672e04\endstone-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\c0974674c7b8d6cfc11a2cad719cda6d\endstone-populate-update.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\478eec8aaa3064eb1e404b51f0672e04\endstone-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\c0974674c7b8d6cfc11a2cad719cda6d\endstone-populate-patch.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\478eec8aaa3064eb1e404b51f0672e04\endstone-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\c0974674c7b8d6cfc11a2cad719cda6d\endstone-populate-configure.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\478eec8aaa3064eb1e404b51f0672e04\endstone-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\c0974674c7b8d6cfc11a2cad719cda6d\endstone-populate-build.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\478eec8aaa3064eb1e404b51f0672e04\endstone-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\c0974674c7b8d6cfc11a2cad719cda6d\endstone-populate-install.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\478eec8aaa3064eb1e404b51f0672e04\endstone-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\c0974674c7b8d6cfc11a2cad719cda6d\endstone-populate-test.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\478eec8aaa3064eb1e404b51f0672e04\endstone-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\3f1815299659b81f2f9bbffafb600bcb\endstone-populate-complete.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\1e09d877075b941a00c2bece7cc4baa8\endstone-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\d92b768d3b8de820115abecc0a4cf5e8\endstone-populate.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\231910de409bdbfb2e1f7c1ea11cccd9\endstone-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\endstone-populate" />
+    <None Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\endstone-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{847E51B1-7542-3BC2-8DCB-E6BC9E15B5DB}</UniqueIdentifier>
+      <UniqueIdentifier>{F9E94C57-8D1F-3CFD-84D0-8AE6C06B0BBA}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

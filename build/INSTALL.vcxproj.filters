@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\CMakeFiles\db45bde587bb9a218700e0fda5d87cdb\INSTALL_force.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\CMakeFiles\4e3f4bc3ce00945df7d6057ce1139405\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{F9FC3B21-79E5-3E27-A0D9-723C0BD0D212}</UniqueIdentifier>
+      <UniqueIdentifier>{602B173A-903F-3969-937F-03AEA7026130}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

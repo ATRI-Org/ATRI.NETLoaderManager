@@ -10,7 +10,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1CB0FADF-510E-3EA3-AF89-F2B72D0443C0}</ProjectGuid>
+    <ProjectGuid>{05DFF43A-185C-38D6-9662-B9D5C156E05D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -45,13 +45,13 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\c0974674c7b8d6cfc11a2cad719cda6d\endstone-populate-mkdir.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\478eec8aaa3064eb1e404b51f0672e04\endstone-populate-mkdir.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'endstone-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"F:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/endstone-populate-prefix/tmp/endstone-populate-mkdirs.cmake
+"F:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/endstone-populate-prefix/tmp/endstone-populate-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/endstone-populate-prefix/src/endstone-populate-stamp/Debug/endstone-populate-mkdir
+"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/endstone-populate-prefix/src/endstone-populate-stamp/Debug/endstone-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -60,21 +60,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\c0974674c7b8d6cfc11a2cad719cda6d\endstone-populate-download.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\478eec8aaa3064eb1e404b51f0672e04\endstone-populate-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'endstone-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps
+cd F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 F:
 if %errorlevel% neq 0 goto :cmEnd
-"F:\Program Files\CMake\bin\cmake.exe" -P F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/endstone-populate-prefix/tmp/endstone-populate-gitclone.cmake
+"F:\Program Files\CMake\bin\cmake.exe" -P F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/endstone-populate-prefix/tmp/endstone-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/endstone-populate-prefix/src/endstone-populate-stamp/Debug/endstone-populate-download
+"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/endstone-populate-prefix/src/endstone-populate-stamp/Debug/endstone-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -82,20 +82,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\endstone-populate-gitinfo.txt;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\endstone-populate-gitinfo.txt;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\c0974674c7b8d6cfc11a2cad719cda6d\endstone-populate-update.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\478eec8aaa3064eb1e404b51f0672e04\endstone-populate-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'endstone-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-src
+cd F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-src
 if %errorlevel% neq 0 goto :cmEnd
 F:
 if %errorlevel% neq 0 goto :cmEnd
-"F:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/endstone-populate-prefix/tmp/endstone-populate-gitupdate.cmake
+"F:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/endstone-populate-prefix/tmp/endstone-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -103,19 +103,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\tmp\endstone-populate-gitupdate.cmake;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\endstone-populate-update-info.txt;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\tmp\endstone-populate-gitupdate.cmake;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\endstone-populate-update-info.txt;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\c0974674c7b8d6cfc11a2cad719cda6d\endstone-populate-patch.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\478eec8aaa3064eb1e404b51f0672e04\endstone-populate-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'endstone-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "F:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/endstone-populate-prefix/src/endstone-populate-stamp/Debug/endstone-populate-patch
+"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/endstone-populate-prefix/src/endstone-populate-stamp/Debug/endstone-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -123,24 +123,24 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\endstone-populate-patch-info.txt;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\endstone-populate-patch-info.txt;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\c0974674c7b8d6cfc11a2cad719cda6d\endstone-populate-configure.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\478eec8aaa3064eb1e404b51f0672e04\endstone-populate-configure.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'endstone-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-build
+cd F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-build
 if %errorlevel% neq 0 goto :cmEnd
 F:
 if %errorlevel% neq 0 goto :cmEnd
 "F:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/endstone-populate-prefix/src/endstone-populate-stamp/Debug/endstone-populate-configure
+"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/endstone-populate-prefix/src/endstone-populate-stamp/Debug/endstone-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -148,23 +148,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\tmp\endstone-populate-cfgcmd.txt;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\tmp\endstone-populate-cfgcmd.txt;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\c0974674c7b8d6cfc11a2cad719cda6d\endstone-populate-build.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\478eec8aaa3064eb1e404b51f0672e04\endstone-populate-build.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'endstone-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-build
+cd F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-build
 if %errorlevel% neq 0 goto :cmEnd
 F:
 if %errorlevel% neq 0 goto :cmEnd
 "F:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/endstone-populate-prefix/src/endstone-populate-stamp/Debug/endstone-populate-build
+"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/endstone-populate-prefix/src/endstone-populate-stamp/Debug/endstone-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -172,23 +172,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\c0974674c7b8d6cfc11a2cad719cda6d\endstone-populate-install.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\478eec8aaa3064eb1e404b51f0672e04\endstone-populate-install.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'endstone-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-build
+cd F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-build
 if %errorlevel% neq 0 goto :cmEnd
 F:
 if %errorlevel% neq 0 goto :cmEnd
 "F:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/endstone-populate-prefix/src/endstone-populate-stamp/Debug/endstone-populate-install
+"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/endstone-populate-prefix/src/endstone-populate-stamp/Debug/endstone-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -196,23 +196,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\c0974674c7b8d6cfc11a2cad719cda6d\endstone-populate-test.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\478eec8aaa3064eb1e404b51f0672e04\endstone-populate-test.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'endstone-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-build
+cd F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-build
 if %errorlevel% neq 0 goto :cmEnd
 F:
 if %errorlevel% neq 0 goto :cmEnd
 "F:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/endstone-populate-prefix/src/endstone-populate-stamp/Debug/endstone-populate-test
+"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/endstone-populate-prefix/src/endstone-populate-stamp/Debug/endstone-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -220,21 +220,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\3f1815299659b81f2f9bbffafb600bcb\endstone-populate-complete.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\1e09d877075b941a00c2bece7cc4baa8\endstone-populate-complete.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'endstone-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"F:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/Debug
+"F:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/Debug
 if %errorlevel% neq 0 goto :cmEnd
-"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/Debug/endstone-populate-complete
+"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/Debug/endstone-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/endstone-populate-prefix/src/endstone-populate-stamp/Debug/endstone-populate-done
+"F:\Program Files\CMake\bin\cmake.exe" -E touch F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/endstone-populate-prefix/src/endstone-populate-stamp/Debug/endstone-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -242,14 +242,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-install;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-mkdir;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-download;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-update;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-patch;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-configure;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-build;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\Debug\endstone-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-install;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-mkdir;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-download;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-update;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-patch;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-configure;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-build;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\src\endstone-populate-stamp\Debug\endstone-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\Debug\endstone-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\d92b768d3b8de820115abecc0a4cf5e8\endstone-populate.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\231910de409bdbfb2e1f7c1ea11cccd9\endstone-populate.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -259,18 +259,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\Debug\endstone-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\endstone-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\Debug\endstone-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\endstone-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeLists.txt">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"F:\Program Files\CMake\bin\cmake.exe" -SF:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild -BF:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild --check-stamp-file F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/generate.stamp
+"F:\Program Files\CMake\bin\cmake.exe" -SF:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild -BF:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild --check-stamp-file F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -278,18 +278,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\3.29.0-rc3\CMakeSystem.cmake;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\endstone-populate-prefix\tmp\endstone-populate-mkdirs.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystem.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\PatchInfo.txt.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\RepositoryInfo.txt.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\UpdateInfo.txt.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\cfgcmd.txt.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\gitclone.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\gitupdate.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\mkdirs.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\3.29.0-rc3\CMakeSystem.cmake;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\endstone-populate-prefix\tmp\endstone-populate-mkdirs.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystem.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\PatchInfo.txt.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\RepositoryInfo.txt.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\UpdateInfo.txt.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\cfgcmd.txt.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\gitclone.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\gitupdate.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\mkdirs.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\CMakeFiles\endstone-populate">
+    <None Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\CMakeFiles\endstone-populate">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\endstone-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{DD3EFECC-B971-3364-A32F-8481BC3B733D}</Project>
+    <ProjectReference Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\endstone-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{2D6EEF62-EB3B-3106-AC28-2AF96F31941C}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

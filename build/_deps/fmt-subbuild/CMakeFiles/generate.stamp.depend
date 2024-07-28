@@ -1,7 +1,7 @@
 # CMake generation dependency list for this directory.
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/CMakeFiles/3.29.0-rc3/CMakeSystem.cmake
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/CMakeLists.txt
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/fmt-populate-prefix/tmp/fmt-populate-mkdirs.cmake
+F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-subbuild/CMakeFiles/3.29.0-rc3/CMakeSystem.cmake
+F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-subbuild/CMakeLists.txt
+F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-subbuild/fmt-populate-prefix/tmp/fmt-populate-mkdirs.cmake
 F:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake
 F:/Program Files/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake
 F:/Program Files/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake

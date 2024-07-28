@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-src"
-  "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-build"
-  "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/fmt-populate-prefix"
-  "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/fmt-populate-prefix/tmp"
-  "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp"
-  "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/fmt-populate-prefix/src"
-  "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp"
+  "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-src"
+  "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-build"
+  "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-subbuild/fmt-populate-prefix"
+  "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-subbuild/fmt-populate-prefix/tmp"
+  "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp"
+  "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-subbuild/fmt-populate-prefix/src"
+  "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp"
 )
 
 set(configSubDirs Debug)
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

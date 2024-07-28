@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\CMakeFiles\c0d5c41bf0eece28db44df350bb87cd8\generate.stamp.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\CMakeFiles\dfd33398a96d7b11c2c5db2e15058ced\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{2E5D633F-201D-3B59-8C75-ABAF8BC857BB}</UniqueIdentifier>
+      <UniqueIdentifier>{0A665E1A-34EE-32D3-A049-8716FE9C5AF3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

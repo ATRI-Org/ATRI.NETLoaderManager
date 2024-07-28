@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(endstone-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/EndstoneMC/endstone.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "main"
-                    SOURCE_DIR          "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-src"
-                    BINARY_DIR          "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-build"
+                    SOURCE_DIR          "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-src"
+                    BINARY_DIR          "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

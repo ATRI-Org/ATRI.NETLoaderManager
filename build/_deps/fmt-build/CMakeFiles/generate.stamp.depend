@@ -1,8 +1,8 @@
 # CMake generation dependency list for this directory.
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-src/CMakeLists.txt
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-src/support/cmake/JoinPaths.cmake
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-src/support/cmake/fmt-config.cmake.in
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-src/support/cmake/fmt.pc.in
+F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-src/CMakeLists.txt
+F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-src/support/cmake/JoinPaths.cmake
+F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-src/support/cmake/fmt-config.cmake.in
+F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-src/support/cmake/fmt.pc.in
 F:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
 F:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
 F:/Program Files/CMake/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake

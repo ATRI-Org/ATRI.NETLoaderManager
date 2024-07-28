@@ -1,4 +1,4 @@
-# Install script for directory: F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild
+# Install script for directory: F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

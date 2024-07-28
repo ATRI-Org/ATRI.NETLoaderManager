@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=F:/Program Files/CMake/bin/cmake.exe;-P;F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/endstone-populate-prefix/tmp/endstone-populate-gitclone.cmake
-source_dir=F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-src
-work_dir=F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps
+command=F:/Program Files/CMake/bin/cmake.exe;-P;F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/endstone-populate-prefix/tmp/endstone-populate-gitclone.cmake
+source_dir=F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-src
+work_dir=F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps
 repository=https://github.com/EndstoneMC/endstone.git
 remote=origin
 init_submodules=TRUE

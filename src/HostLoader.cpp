@@ -12,6 +12,7 @@
 #include <hostfxr.h>
 #include <Windows.h>
 #include "stdio.h"
+#include "plugin.h";
 #define STR(s)        L##s
 #define CH(c)         L##c
 #define DIR_SEPARATOR L'\\'
@@ -28,11 +29,10 @@ hostfxr_close_fn close_fptr;
 bool load_hostfxr(const char_t *app);
 load_assembly_and_get_function_pointer_fn get_dotnet_load_assembly(const char_t *assembly);
 
-std::string run_component_example(const string_t &root_path);
-int run_app_example(const string_t &root_path);
+DotnetPlugin *run_component(const string_t &root_path);
 } 
 
-std::string LoadMain()
+DotnetPlugin *LoadMain()
 {
     char_t host_path[MAX_PATH];
     auto size = ::GetFullPathNameW(L"bedrock_server.exe", sizeof(host_path) / sizeof(char_t), host_path, nullptr);
@@ -41,10 +41,11 @@ std::string LoadMain()
     auto pos = root_path.find_last_of(DIR_SEPARATOR);
     assert(pos != string_t::npos);
     root_path = root_path.substr(0, pos + 1);
-    return run_component_example(root_path);
+    auto ptr = run_component(root_path);
+    return ptr;
 }
 namespace {
-std::string run_component_example(const string_t &root_path)
+DotnetPlugin *run_component(const string_t &root_path)
 {
    
     if (!load_hostfxr(nullptr)) {
@@ -64,12 +65,9 @@ std::string run_component_example(const string_t &root_path)
         long long* a = new long long;
         *a =0;
         int a2 =  PluginMain(a, 20);
-        const char* ptra = (const char*)*a;
-        char *dat = new  char[a2];
+        DotnetPlugin *ptr = (DotnetPlugin *)(*a);
         delete a;
-        strcpy(dat,ptra);
-        std::string text = dat;
-       return text;
+       return ptr;
   }
 }
 namespace {
@@ -109,10 +107,6 @@ bool load_hostfxr(const char_t *assembly_path)
 
     return (init_for_config_fptr && get_delegate_fptr && close_fptr);
 }
-// </SnippetLoadHostFxr>
-
-// <SnippetInitialize>
-// Load and initialize .NET Core and get desired function pointer for scenario
 load_assembly_and_get_function_pointer_fn get_dotnet_load_assembly(const char_t *config_path)
 {
     // Load .NET Core

@@ -51,7 +51,7 @@ add_library(fmt::fmt STATIC IMPORTED)
 
 set_target_properties(fmt::fmt PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_11"
-  INTERFACE_INCLUDE_DIRECTORIES "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-src/include"
+  INTERFACE_INCLUDE_DIRECTORIES "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-src/include"
 )
 
 # Create imported target fmt::fmt-header-only
@@ -60,35 +60,35 @@ add_library(fmt::fmt-header-only INTERFACE IMPORTED)
 set_target_properties(fmt::fmt-header-only PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "FMT_HEADER_ONLY=1"
   INTERFACE_COMPILE_FEATURES "cxx_std_11"
-  INTERFACE_INCLUDE_DIRECTORIES "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-src/include"
+  INTERFACE_INCLUDE_DIRECTORIES "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-src/include"
 )
 
 # Import target "fmt::fmt" for configuration "Debug"
 set_property(TARGET fmt::fmt APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(fmt::fmt PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-build/Debug/fmtd.lib"
+  IMPORTED_LOCATION_DEBUG "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-build/Debug/fmtd.lib"
   )
 
 # Import target "fmt::fmt" for configuration "Release"
 set_property(TARGET fmt::fmt APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(fmt::fmt PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-build/Release/fmt.lib"
+  IMPORTED_LOCATION_RELEASE "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-build/Release/fmt.lib"
   )
 
 # Import target "fmt::fmt" for configuration "MinSizeRel"
 set_property(TARGET fmt::fmt APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(fmt::fmt PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-build/MinSizeRel/fmt.lib"
+  IMPORTED_LOCATION_MINSIZEREL "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-build/MinSizeRel/fmt.lib"
   )
 
 # Import target "fmt::fmt" for configuration "RelWithDebInfo"
 set_property(TARGET fmt::fmt APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(fmt::fmt PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-build/RelWithDebInfo/fmt.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-build/RelWithDebInfo/fmt.lib"
   )
 
 # This file does not depend on other imported targets which have

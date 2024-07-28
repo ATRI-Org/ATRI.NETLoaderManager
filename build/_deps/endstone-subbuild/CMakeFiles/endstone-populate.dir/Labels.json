@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/endstone-populate"
+			"file" : "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/endstone-populate"
 		},
 		{
-			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/d92b768d3b8de820115abecc0a4cf5e8/endstone-populate.rule"
+			"file" : "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/231910de409bdbfb2e1f7c1ea11cccd9/endstone-populate.rule"
 		},
 		{
-			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/3f1815299659b81f2f9bbffafb600bcb/endstone-populate-complete.rule"
+			"file" : "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/1e09d877075b941a00c2bece7cc4baa8/endstone-populate-complete.rule"
 		},
 		{
-			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/c0974674c7b8d6cfc11a2cad719cda6d/endstone-populate-build.rule"
+			"file" : "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/478eec8aaa3064eb1e404b51f0672e04/endstone-populate-build.rule"
 		},
 		{
-			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/c0974674c7b8d6cfc11a2cad719cda6d/endstone-populate-configure.rule"
+			"file" : "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/478eec8aaa3064eb1e404b51f0672e04/endstone-populate-configure.rule"
 		},
 		{
-			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/c0974674c7b8d6cfc11a2cad719cda6d/endstone-populate-download.rule"
+			"file" : "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/478eec8aaa3064eb1e404b51f0672e04/endstone-populate-download.rule"
 		},
 		{
-			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/c0974674c7b8d6cfc11a2cad719cda6d/endstone-populate-install.rule"
+			"file" : "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/478eec8aaa3064eb1e404b51f0672e04/endstone-populate-install.rule"
 		},
 		{
-			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/c0974674c7b8d6cfc11a2cad719cda6d/endstone-populate-mkdir.rule"
+			"file" : "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/478eec8aaa3064eb1e404b51f0672e04/endstone-populate-mkdir.rule"
 		},
 		{
-			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/c0974674c7b8d6cfc11a2cad719cda6d/endstone-populate-patch.rule"
+			"file" : "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/478eec8aaa3064eb1e404b51f0672e04/endstone-populate-patch.rule"
 		},
 		{
-			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/c0974674c7b8d6cfc11a2cad719cda6d/endstone-populate-test.rule"
+			"file" : "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/478eec8aaa3064eb1e404b51f0672e04/endstone-populate-test.rule"
 		},
 		{
-			"file" : "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-subbuild/CMakeFiles/c0974674c7b8d6cfc11a2cad719cda6d/endstone-populate-update.rule"
+			"file" : "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/478eec8aaa3064eb1e404b51f0672e04/endstone-populate-update.rule"
 		}
 	],
 	"target" : 

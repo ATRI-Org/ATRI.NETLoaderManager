@@ -13,7 +13,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{42F60677-5EA7-3571-8219-B7C03C5D9467}</ProjectGuid>
+    <ProjectGuid>{FB015CA2-6763-3D5A-BE23-0D7EC82B03E3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -48,11 +48,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\CMakeLists.txt">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"F:\Program Files\CMake\bin\cmake.exe" -SF:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild -BF:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild --check-stamp-file F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-subbuild/CMakeFiles/generate.stamp
+"F:\Program Files\CMake\bin\cmake.exe" -SF:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-subbuild -BF:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-subbuild --check-stamp-file F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -60,22 +60,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\CMakeFiles\3.29.0-rc3\CMakeSystem.cmake;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\fmt-populate-prefix\tmp\fmt-populate-mkdirs.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystem.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\PatchInfo.txt.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\RepositoryInfo.txt.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\UpdateInfo.txt.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\cfgcmd.txt.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\gitclone.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\gitupdate.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\mkdirs.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\CMakeFiles\3.29.0-rc3\CMakeSystem.cmake;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\fmt-populate-prefix\tmp\fmt-populate-mkdirs.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystem.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\PatchInfo.txt.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\RepositoryInfo.txt.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\UpdateInfo.txt.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\cfgcmd.txt.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\gitclone.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\gitupdate.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\mkdirs.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{7345990D-F8F2-3F6E-8B2D-DAA18808D199}</Project>
+    <ProjectReference Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{7C40D5CC-5A1A-39AB-8EB4-D5434E20B4ED}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\fmt-populate.vcxproj">
-      <Project>{1F5142E0-F677-33EB-9EC0-AA703E7E1234}</Project>
+    <ProjectReference Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\fmt-populate.vcxproj">
+      <Project>{8ACF2758-897D-3093-822E-A6269944133F}</Project>
       <Name>fmt-populate</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6E453A95-AEE3-3E74-A00D-CA45D2E35CFB}</ProjectGuid>
+    <ProjectGuid>{1617AC72-D584-39A5-A815-E52270ECF7FD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\CMakeLists.txt">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"F:\Program Files\CMake\bin\cmake.exe" -SF:/EndStoneMC/Plugin/cpp-example-plugin -BF:/EndStoneMC/Plugin/cpp-example-plugin/build --check-stamp-file F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-build/CMakeFiles/generate.stamp
+"F:\Program Files\CMake\bin\cmake.exe" -SF:/EndStoneMC/Plugin/ATRI.NETLoaderManager -BF:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build --check-stamp-file F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\support\cmake\JoinPaths.cmake;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\support\cmake\fmt-config.cmake.in;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\support\cmake\fmt.pc.in;F:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\support\cmake\JoinPaths.cmake;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\support\cmake\fmt-config.cmake.in;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\support\cmake\fmt.pc.in;F:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"F:\Program Files\CMake\bin\cmake.exe" -SF:/EndStoneMC/Plugin/cpp-example-plugin -BF:/EndStoneMC/Plugin/cpp-example-plugin/build --check-stamp-file F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-build/CMakeFiles/generate.stamp
+"F:\Program Files\CMake\bin\cmake.exe" -SF:/EndStoneMC/Plugin/ATRI.NETLoaderManager -BF:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build --check-stamp-file F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\support\cmake\JoinPaths.cmake;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\support\cmake\fmt-config.cmake.in;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\support\cmake\fmt.pc.in;F:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\support\cmake\JoinPaths.cmake;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\support\cmake\fmt-config.cmake.in;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\support\cmake\fmt.pc.in;F:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"F:\Program Files\CMake\bin\cmake.exe" -SF:/EndStoneMC/Plugin/cpp-example-plugin -BF:/EndStoneMC/Plugin/cpp-example-plugin/build --check-stamp-file F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-build/CMakeFiles/generate.stamp
+"F:\Program Files\CMake\bin\cmake.exe" -SF:/EndStoneMC/Plugin/ATRI.NETLoaderManager -BF:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build --check-stamp-file F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\support\cmake\JoinPaths.cmake;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\support\cmake\fmt-config.cmake.in;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\support\cmake\fmt.pc.in;F:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\support\cmake\JoinPaths.cmake;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\support\cmake\fmt-config.cmake.in;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\support\cmake\fmt.pc.in;F:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"F:\Program Files\CMake\bin\cmake.exe" -SF:/EndStoneMC/Plugin/cpp-example-plugin -BF:/EndStoneMC/Plugin/cpp-example-plugin/build --check-stamp-file F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-build/CMakeFiles/generate.stamp
+"F:\Program Files\CMake\bin\cmake.exe" -SF:/EndStoneMC/Plugin/ATRI.NETLoaderManager -BF:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build --check-stamp-file F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,22 +159,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\support\cmake\JoinPaths.cmake;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\support\cmake\fmt-config.cmake.in;F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\support\cmake\fmt.pc.in;F:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\support\cmake\JoinPaths.cmake;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\support\cmake\fmt-config.cmake.in;F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\support\cmake\fmt.pc.in;F:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;F:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\ZERO_CHECK.vcxproj">
-      <Project>{3AFBDF93-0570-343D-8C19-E3594F2BCA85}</Project>
+    <ProjectReference Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\ZERO_CHECK.vcxproj">
+      <Project>{089C2EEF-AAFC-3715-A562-76D67791610E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-build\fmt.vcxproj">
-      <Project>{DF0569A2-8AE7-3520-B50B-9593029BD929}</Project>
+    <ProjectReference Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-build\fmt.vcxproj">
+      <Project>{E773FF67-EA2D-3D9F-B4FA-7A38B581AF99}</Project>
       <Name>fmt</Name>
     </ProjectReference>
   </ItemGroup>

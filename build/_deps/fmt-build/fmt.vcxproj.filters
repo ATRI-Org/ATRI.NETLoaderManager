@@ -1,67 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\src\format.cc">
+    <ClCompile Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\src\format.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\src\os.cc">
+    <ClCompile Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\src\os.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\include\fmt\args.h">
+    <ClInclude Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\include\fmt\args.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\include\fmt\chrono.h">
+    <ClInclude Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\include\fmt\chrono.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\include\fmt\color.h">
+    <ClInclude Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\include\fmt\color.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\include\fmt\compile.h">
+    <ClInclude Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\include\fmt\compile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\include\fmt\core.h">
+    <ClInclude Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\include\fmt\core.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\include\fmt\format.h">
+    <ClInclude Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\include\fmt\format.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\include\fmt\format-inl.h">
+    <ClInclude Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\include\fmt\format-inl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\include\fmt\os.h">
+    <ClInclude Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\include\fmt\os.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\include\fmt\ostream.h">
+    <ClInclude Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\include\fmt\ostream.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\include\fmt\printf.h">
+    <ClInclude Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\include\fmt\printf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\include\fmt\ranges.h">
+    <ClInclude Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\include\fmt\ranges.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\include\fmt\std.h">
+    <ClInclude Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\include\fmt\std.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\include\fmt\xchar.h">
+    <ClInclude Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\include\fmt\xchar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\CMakeLists.txt" />
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\README.md" />
-    <None Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-src\ChangeLog.md" />
+    <None Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\README.md" />
+    <None Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-src\ChangeLog.md" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{455F9A51-2842-3AA1-BCB2-40348A1A782D}</UniqueIdentifier>
+      <UniqueIdentifier>{B43B064C-80BF-335D-AF50-6E752C1CF66C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{695CB3AA-E87D-3F5F-9467-3FF973870D5F}</UniqueIdentifier>
+      <UniqueIdentifier>{8877A74A-C514-30AB-A9FB-52E0F7C27B3A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

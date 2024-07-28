@@ -1,7 +1,7 @@
 # CMake generation dependency list for this directory.
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/CMakeFiles/3.29.0-rc3/CMakeCCompiler.cmake
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-src/CMakeLists.txt
-F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-src/cmake/EndstoneHeaders.cmake
+F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/CMakeFiles/3.29.0-rc3/CMakeCCompiler.cmake
+F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-src/CMakeLists.txt
+F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-src/cmake/EndstoneHeaders.cmake
 F:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in
 F:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c
 F:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCInformation.cmake

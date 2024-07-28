@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(fmt-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/fmtlib/fmt.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "10.2.1"
-                    SOURCE_DIR          "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-src"
-                    BINARY_DIR          "F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-build"
+                    SOURCE_DIR          "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-src"
+                    BINARY_DIR          "F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

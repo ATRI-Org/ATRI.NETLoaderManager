@@ -1,4 +1,4 @@
-# Install script for directory: F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/endstone-src
+# Install script for directory: F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/EndStoneMC/Plugin/cpp-example-plugin/build/_deps/fmt-build/cmake_install.cmake")
+  include("F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/fmt-build/cmake_install.cmake")
 endif()
 

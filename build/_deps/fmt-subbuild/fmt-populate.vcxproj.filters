@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\CMakeFiles\53ee1fb21a032f5d721c22f6c34824fd\fmt-populate-mkdir.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\CMakeFiles\c6876959ddb808b0096f901df9fac2ba\fmt-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\CMakeFiles\53ee1fb21a032f5d721c22f6c34824fd\fmt-populate-download.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\CMakeFiles\c6876959ddb808b0096f901df9fac2ba\fmt-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\CMakeFiles\53ee1fb21a032f5d721c22f6c34824fd\fmt-populate-update.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\CMakeFiles\c6876959ddb808b0096f901df9fac2ba\fmt-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\CMakeFiles\53ee1fb21a032f5d721c22f6c34824fd\fmt-populate-patch.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\CMakeFiles\c6876959ddb808b0096f901df9fac2ba\fmt-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\CMakeFiles\53ee1fb21a032f5d721c22f6c34824fd\fmt-populate-configure.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\CMakeFiles\c6876959ddb808b0096f901df9fac2ba\fmt-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\CMakeFiles\53ee1fb21a032f5d721c22f6c34824fd\fmt-populate-build.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\CMakeFiles\c6876959ddb808b0096f901df9fac2ba\fmt-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\CMakeFiles\53ee1fb21a032f5d721c22f6c34824fd\fmt-populate-install.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\CMakeFiles\c6876959ddb808b0096f901df9fac2ba\fmt-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\CMakeFiles\53ee1fb21a032f5d721c22f6c34824fd\fmt-populate-test.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\CMakeFiles\c6876959ddb808b0096f901df9fac2ba\fmt-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\CMakeFiles\78e21b849d00e6445d13a91c3af97d36\fmt-populate-complete.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\CMakeFiles\79273c2e6c42262c9bd863401f589a82\fmt-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\CMakeFiles\c0d5c41bf0eece28db44df350bb87cd8\fmt-populate.rule">
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\CMakeFiles\dfd33398a96d7b11c2c5db2e15058ced\fmt-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="F:\EndStoneMC\Plugin\cpp-example-plugin\build\_deps\fmt-subbuild\CMakeFiles\fmt-populate" />
+    <None Include="F:\EndStoneMC\Plugin\ATRI.NETLoaderManager\build\_deps\fmt-subbuild\CMakeFiles\fmt-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{2E5D633F-201D-3B59-8C75-ABAF8BC857BB}</UniqueIdentifier>
+      <UniqueIdentifier>{0A665E1A-34EE-32D3-A049-8716FE9C5AF3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
