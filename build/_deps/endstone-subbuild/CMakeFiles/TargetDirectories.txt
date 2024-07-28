@@ -1,3 +1,0 @@
-F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/endstone-populate.dir
-F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/ALL_BUILD.dir
-F:/EndStoneMC/Plugin/ATRI.NETLoaderManager/build/_deps/endstone-subbuild/CMakeFiles/ZERO_CHECK.dir
