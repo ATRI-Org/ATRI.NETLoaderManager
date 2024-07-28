@@ -10,7 +10,7 @@ public:
     {
         auto &server = getServer();
         server.getPluginManager().registerLoader(std::make_unique<DotnetPluginLoader>(server));
-        server.getPluginManager().loadPlugins("./plugins/plugins_dotnet/");
+        server.getPluginManager().loadPlugins("./plugins/plugins_dotnet/std_lib");
         getLogger().info("init dotnet plugins");
     }
 
@@ -31,9 +31,17 @@ ENDSTONE_PLUGIN("EndStoneDotNetLoader","0.0.1", DotnetLoader)
 }
 std::vector<Plugin *> DotnetPluginLoader::loadPlugins(const std::string &directory)
 {
-        auto ptr = LoadMain();
-        initPlugin(*ptr, getServer().getLogger(), std::filesystem::path(directory));
-        return {ptr};
+        auto ptr = (std::vector<DotnetPlugin*>*)LoadMain();
+       if (ptr == 0) {
+            return {};
+       }
+        std::vector<Plugin *> des;
+         for each (auto var in *ptr) {
+            des.push_back(var);
+             initPlugin(*var, getServer().getLogger(), std::filesystem::path(directory));
+         }
+         delete ptr;
+        return des;
 }
 void DotnetPlugin::buildPlugin(ENALBLECALL load, ENALBLECALL enable, ENALBLECALL disable, char *describe, char *version,
                                char *pluginname, char *website, char *emil, char *author)
