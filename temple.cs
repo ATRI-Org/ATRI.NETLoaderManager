@@ -1,7 +1,7 @@
 ﻿
 namespace Plugin
 {
-    public class Plugin
+    public static class Plugin
     {
         public static string Name = "dotNet plugin example";
         public static string version = "0.0.1";
@@ -9,16 +9,16 @@ namespace Plugin
         public static string describe = "This is a example";
         public static string author = "Youm1iHa";
 
-        public void onLoad()
+        public static void onLoad()
         {
             Console.WriteLine("Loaded");
         }
 
-        public void onEnable()
+        public static void onEnable()
         {
             Console.WriteLine("enable");
         }
-        public void onDisable()
+        public static void onDisable()
         {
             Console.WriteLine("disable");
         }
