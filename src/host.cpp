@@ -10,6 +10,12 @@ EXTERN void *RegisterPluginVoid(char *describe, char *version, char *pluginname,
     ptr->buildPlugin(load, enable, disable, describe, version, pluginname, website, emil, author);
     return ptr;
 }
+EXTERN void cout(char* text) {
+    if (text == 0) {
+     return;
+    }
+   std::cout << text << std::endl;
+}
   EXTERN void AddIntoArray(void* array, void* ptr) 
   {
      auto ptra = (std::vector<DotnetPlugin *>*)array;
@@ -35,4 +41,5 @@ EXTERN void *RegisterPluginVoid(char *describe, char *version, char *pluginname,
   EXTERN void setOp(bool num, endstone::Permissible* ptr) {
       ptr->setOp(num);
   }
+ 
   }

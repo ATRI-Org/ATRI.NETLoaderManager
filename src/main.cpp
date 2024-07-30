@@ -10,7 +10,7 @@ public:
     {
         auto &server = getServer();
         server.getPluginManager().registerLoader(std::make_unique<DotnetPluginLoader>(server));
-        server.getPluginManager().loadPlugins("./plugins/plugins_dotnet/std_lib");
+        server.getPluginManager().loadPlugins("./plugins/plugins_dotnet/.empty");
         getLogger().info("init dotnet plugins");
     }
 
@@ -24,7 +24,7 @@ public:
         getLogger().info("onDisable is called");
     }
 };
-ENDSTONE_PLUGIN("EndStoneDotNetLoader","0.0.1", DotnetLoader)
+ENDSTONE_PLUGIN("dotnet_loader","0.0.1", DotnetLoader)
 {
     description = "A dotnet loader for endstone [dotnet 9.0]";
     website = "http://netloader.axio.fun";
@@ -39,9 +39,9 @@ std::vector<Plugin *> DotnetPluginLoader::loadPlugins(const std::string &directo
         std::vector<Plugin *> des;
          for each (auto var in *ptr) {
             des.push_back(var);
-             initPlugin(*var, getServer().getLogger(), std::filesystem::path(directory));
+            // initPlugin(*var, getServer().getLogger(), std::filesystem::path(directory));
          }
-         delete ptr;
+        delete ptr;
         return des;
 }
 void DotnetPlugin::buildPlugin(ENALBLECALL load, ENALBLECALL enable, ENALBLECALL disable, char *describe, char *version,

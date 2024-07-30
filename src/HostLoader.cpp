@@ -56,8 +56,8 @@ DotnetPlugin *run_component(const string_t &root_path)
     load_assembly_and_get_function_pointer_fn load_assembly_and_get_function_pointer = nullptr;
     load_assembly_and_get_function_pointer = get_dotnet_load_assembly(config_path.c_str());
     assert(load_assembly_and_get_function_pointer != nullptr && "Failure: get_dotnet_load_assembly()");
-    const string_t dotnetlib_path = root_path + STR("plugins\\plugins_dotnet\\runtime\\netloader.dll");
-    const char_t *dotnet_type = STR("Netmain.Pmain, netloader");
+    const string_t dotnetlib_path = root_path + STR("plugins\\plugins_dotnet\\runtime\\Loader.dll");
+    const char_t *dotnet_type = STR("Netmain.Pmain, Loader");
     const char_t *dotnet_type_method = STR("PluginMain");
     component_entry_point_fn PluginMain = nullptr;
     int rc = load_assembly_and_get_function_pointer(dotnetlib_path.c_str(), dotnet_type, dotnet_type_method,                                        nullptr, nullptr, (void **)&PluginMain);
