@@ -25,37 +25,42 @@
 
 ###### **创建插件**
 
-1. 打开vs2022创建.net core 类库项目
+1. 打开vs2022创建.net core 类库项目,引用plugins/plugins_dotnet/stdlib中的stdlib.dll_
 2. 复制temple文件,并填写文件信息
-ps: 请保持namespace和class名称和类型一致,至于为什么要保持不变,lazy.jpg
 ```c#
 namespace Plugin
 {
-    public class Plugin
+    [RegisterAttribute_]
+    public static class Plugin
     {
-        public static string Name = "dotNet plugin example";
-        public static string version = "0.0.1";
-        public static string website = "example.com";
-        public static string describe = "This is a example";
-        public static string author = "Youm1iHa";
 
-        public void onLoad()
+        public static string Name { get; } = "dotnet_plugin_example";
+
+        public static string version { get; } = "0.0.1";
+
+        public static string website { get; } = "example.com";
+
+        public static string describe { get; } = "This is a example";
+
+        public static string author { get; } = "Youm1iHa";
+
+        public static void onLoad()
         {
             Console.WriteLine("Loaded");
         }
 
-        public void onEnable()
+        public static void onEnable()
         {
             Console.WriteLine("enable");
         }
-        public void onDisable()
+        public static void onDisable()
         {
             Console.WriteLine("disable");
         }
     }
 }
 ```
-3. 放入plugins/plugins_dotnet文件夹,开启endstone运行
+3. 放入mods文件夹,开启endstone运行
 
 ### 文件目录说明
 eg:
@@ -66,6 +71,7 @@ files
 |   ├──/runtime/
 |   ├──/stdlib/
 ├── plugins/EndStoneDotNetLoader.dll
+├── mods/
 ├── nethost.dll
 ```
 

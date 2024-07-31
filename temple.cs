@@ -3,6 +3,7 @@
     [RegisterAttribute_]
     public static class Plugin
     {
+
         public static string Name { get; } = "dotnet_plugin_example";
 
         public static string version { get; } = "0.0.1";
@@ -11,7 +12,7 @@
 
         public static string describe { get; } = "This is a example";
 
-        public static string author { get; } = "YoumiHa";
+        public static string author { get; } = "Youm1iHa";
 
         public static void onLoad()
         {
