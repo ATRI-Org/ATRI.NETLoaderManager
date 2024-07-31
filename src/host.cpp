@@ -41,5 +41,41 @@ EXTERN void cout(char* text) {
   EXTERN void setOp(bool num, endstone::Permissible* ptr) {
       ptr->setOp(num);
   }
- 
+  EXTERN void* getLogger(Plugin* plugin) {
+      return &(plugin->getLogger());  
+  }
+  EXTERN void logger_info(endstone::Logger* logger,char* text) {
+     logger->info(text);
+  }
+  EXTERN void logger_error(endstone::Logger* logger,char* text) {
+     logger->error(text); 
+  }
+  EXTERN void logger_warn(endstone::Logger *logger, char* text) {
+      logger->warning(text);
+  }
+  EXTERN void logger_trace(endstone::Logger *logger, char *text) {
+      logger->trace(text);
+      
+  }
+  EXTERN void logger_critical(endstone::Logger *logger, char *text)
+  {
+      logger->critical(text);
+  }
+  EXTERN void logger_debug(endstone::Logger *logger, char *text) {
+      logger->debug(text);
+      
+  }
+  EXTERN void* plugin_getserver(Plugin* plugin) {
+      return &(plugin->getServer());
+  }
+  EXTERN const char* plugin_getname(Plugin* plugin) {
+      return (plugin->getName().c_str());
+      
+  }
+  EXTERN const char* plugin_getdataflor(Plugin* plugin) {
+      return (plugin->getDataFolder().string().c_str());
+  }
+  EXTERN void* plugin_getcommand(Plugin* plugin,char* name) {
+      return (plugin->getCommand(name));
+  }
   }

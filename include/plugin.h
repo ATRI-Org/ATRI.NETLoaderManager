@@ -25,20 +25,20 @@ public:
     using PluginLoader::PluginLoader;
     std::vector<Plugin*> loadPlugins(const std::string &directory) override;
 };
+
  class DotnetPlugin : public Plugin {
  public:
-    
+     
      using Plugin::Plugin;
      endstone::detail::PluginDescriptionBuilder impl;
-     PluginDescription* des;
-     char* name_;
-     char* version_;
+     PluginDescription *des;
+     char *name_;
+     char *version_;
      ENALBLECALL load_;
      ENALBLECALL enable_;
      ENALBLECALL disable_;
-     void buildPlugin(
-     ENALBLECALL load,ENALBLECALL enable,ENALBLECALL disable, 
-     char *describe, char *version,char *pluginname, char *website, char *emil, char* author);
+     void buildPlugin(ENALBLECALL load, ENALBLECALL enable, ENALBLECALL disable, char *describe, char *version,
+                      char *pluginname, char *website, char *emil, char *author);
      [[nodiscard]] const PluginDescription &getDescription() const override;
      void onLoad() override;
      void onEnable() override;

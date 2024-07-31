@@ -16,13 +16,15 @@ public:
 
     void onEnable() override 
     {
-      
+        //Command* command = new Command();
+        
     } 
 
     void onDisable() override
     {
         getLogger().info("onDisable is called");
     }
+   
 };
 ENDSTONE_PLUGIN("dotnet_loader","0.0.1", DotnetLoader)
 {
