@@ -17,21 +17,20 @@
 typedef void(__stdcall *CALLBACK_)(void);
 #define ENALBLECALL CALLBACK_
 using string_t = std::basic_string<char_t>;
-using namespace endstone;
 namespace fs = std::filesystem;
 
-class DotnetPluginLoader : public PluginLoader {
+class DotnetPluginLoader : public endstone::PluginLoader {
 public:
     using PluginLoader::PluginLoader;
-    std::vector<Plugin*> loadPlugins(const std::string &directory) override;
+    std::vector<endstone::Plugin *> loadPlugins(const std::string &directory) override;
 };
 
- class DotnetPlugin : public Plugin {
+ class DotnetPlugin : public endstone::Plugin {
  public:
      
      using Plugin::Plugin;
      endstone::detail::PluginDescriptionBuilder impl;
-     PluginDescription *des;
+     endstone::PluginDescription *des;
      char *name_;
      char *version_;
      ENALBLECALL load_;
@@ -39,10 +38,11 @@ public:
      ENALBLECALL disable_;
      void buildPlugin(ENALBLECALL load, ENALBLECALL enable, ENALBLECALL disable, char *describe, char *version,
                       char *pluginname, char *website, char *emil, char *author);
-     [[nodiscard]] const PluginDescription &getDescription() const override;
+     [[nodiscard]] const endstone::PluginDescription &getDescription() const override;
      void onLoad() override;
      void onEnable() override;
      void onDisable() override;
-     bool onCommand(CommandSender &sender, const Command &command, const std::vector<std::string> &args) override;
+     bool onCommand(endstone::CommandSender &sender, const endstone::Command &command,
+                    const std::vector<std::string> &args) override;
  };
  DotnetPlugin *LoadMain();

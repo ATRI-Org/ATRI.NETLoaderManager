@@ -32,13 +32,13 @@ ENDSTONE_PLUGIN("dotnet_loader","0.0.1", DotnetLoader)
     website = "http://netloader.axio.fun";
     authors = {"ATRI-ORG"};
 }
-std::vector<Plugin *> DotnetPluginLoader::loadPlugins(const std::string &directory)
+std::vector<endstone::Plugin *> DotnetPluginLoader::loadPlugins(const std::string &directory)
 {
         auto ptr = (std::vector<DotnetPlugin*>*)LoadMain();
        if (ptr == 0) {
             return {};
        }
-        std::vector<Plugin *> des;
+       std::vector<endstone::Plugin *> des;
          for each (auto var in *ptr) {
             des.push_back(var);
             // initPlugin(*var, getServer().getLogger(), std::filesystem::path(directory));
@@ -57,11 +57,11 @@ void DotnetPlugin::buildPlugin(ENALBLECALL load, ENALBLECALL enable, ENALBLECALL
         impl.website = website;
         version_ = version;
         name_ = pluginname;
-        PluginDescription * des_= new PluginDescription(name_,version);
+        endstone::PluginDescription *des_ = new endstone::PluginDescription(name_, version);
         *(des_) = impl.build(name_,version);
         des = des_;
 }
-[[nodiscard]]  const PluginDescription &DotnetPlugin::getDescription() const
+[[nodiscard]] const endstone::PluginDescription &DotnetPlugin::getDescription() const
 {
     return *des;
 }
@@ -71,7 +71,8 @@ void DotnetPlugin::onEnable() {
 void DotnetPlugin::onLoad() {
     load_();
 }
-bool DotnetPlugin::onCommand(CommandSender &sender, const Command &command, const std::vector<std::string> &args)
+bool DotnetPlugin::onCommand(endstone::CommandSender &sender, const endstone::Command &command,
+                             const std::vector<std::string> &args)
 {
     if (auto *player = sender.asPlayer(); player) {
      
